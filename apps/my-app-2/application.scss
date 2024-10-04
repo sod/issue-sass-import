@@ -1,5 +1,5 @@
-@use "@my-corporation/sdk/shared";
+@import "@my-corporation/sdk/shared";
 
 body {
-    font-size: $base-font-size * 2;
+    font-size: $shared-variable * 2;
 }
